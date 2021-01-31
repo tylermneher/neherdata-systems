@@ -1,0 +1,26 @@
+{
+  "name": "neherdata-systems",
+  "version": "1.0.0",
+  "description": "www.neherdata.systems",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tylermneher/neherdata-systems.git"
+  },
+  "keywords": [
+    "nds"
+  ],
+  "author": "Tyler M. Neher",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tylermneher/neherdata-systems/issues"
+  },
+  "homepage": "https://github.com/tylermneher/neherdata-systems#readme",
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
