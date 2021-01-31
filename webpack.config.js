@@ -1,7 +1,7 @@
-var path = require("path");
+import { resolve } from "path";
 
-var DIST_DIR = path.resolve(__dirname, "dist");
-var SRC_DIR = path.resolve(__dirname, "src");
+var DIST_DIR = resolve(__dirname, "dist");
+var SRC_DIR = resolve(__dirname, "src");
 
 var config = {
   entry: SRC_DIR + "/app/index.js",
@@ -24,4 +24,4 @@ var config = {
   }
 };
 
-module.exports = config;
+export default config;
